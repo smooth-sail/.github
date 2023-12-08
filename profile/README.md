@@ -1,4 +1,4 @@
-![SmoothSail header](smoothsail-banner.png)
+![SmoothSail header](smoothsail-header.png)
 
 ---
 
