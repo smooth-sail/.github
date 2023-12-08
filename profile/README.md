@@ -8,7 +8,7 @@
 
 SmoothSail is a self-hosted, open-source feature flag tool designed for small companies aiming for rapid feature development with minimized risks. It empowers developers to separate the release of new features from their deployment and quickly revert unsuccessful updates with just a click. SmoothSail provides accurate user targeting capabilities, enabling engineers to introduce new features to specific demographics and limit the impact of unforeseen bugs in production.
 
-📄 To learn more about SmoothSail and the decisions that went into it's design, check out our [case study](https://smooth-sail.github.io/case-study)
+📄 To learn more about SmoothSail and the decisions that went into it's design, check out our <a href="https://smooth-sail.github.io/case-study" target="_blank">case study</a>
 
 ## Getting Started
 
@@ -21,7 +21,10 @@ There are two ways developers can get started with SmoothSail:
 
 ## The Team
 
-[**Emily Olszewski**]()
-[**Bradley Taylor**]()
-[**Dariia Vyshenska**]()
-[**Isaac Lee**]()
+**<a href="#" target="_blank">Emily Olszewski</a>** _Software Engineer_ •
+
+**<a href="#" target="_blank">Bradley Taylor</a>** _Software Engineer_ • Las Vegas, NV
+
+**<a href="#" target="_blank">Dariia Vyshenska</a>** _Software Engineer_ • Seattle, WA
+
+**<a href="#" target="_blank">Isaac Lee</a>** _Software Engineer_ • Los Angeles, CA
