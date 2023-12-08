@@ -1,1 +1,1 @@
-![SmoothSail banner](profile/smoothsail-banner.png)
+![SmoothSail banner](profile/images/smoothsail-banner.png)
