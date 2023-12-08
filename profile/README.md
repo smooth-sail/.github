@@ -1,4 +1,4 @@
-![SmoothSail header](https://github.com/smooth-sail/.github/blob/main/images/smoothsail-header.png)
+[![SmoothSail header](https://github.com/smooth-sail/.github/blob/main/images/smoothsail-header.png)](https://smooth-sail.github.io)
 
 > SmoothSail is a feature flag management tool with user targeting capabilities.
 
@@ -21,10 +21,10 @@ There are two ways developers can get started with SmoothSail:
 
 ## The Team
 
-**<a href="#" target="_blank">Emily Olszewski</a>** _Software Engineer_ •
+**[Emily Olszewski]()** _Software Engineer_ • , AZ
 
-**<a href="#" target="_blank">Bradley Taylor</a>** _Software Engineer_ • Las Vegas, NV
+**[Bradley Taylor]()** _Software Engineer_ • Las Vegas, NV
 
-**<a href="#" target="_blank">Dariia Vyshenska</a>** _Software Engineer_ • Seattle, WA
+**[Dariia Vyshenska]()** _Software Engineer_ • Seattle, WA
 
-**<a href="#" target="_blank">Isaac Lee</a>** _Software Engineer_ • Los Angeles, CA
+**[Isaac Lee]()** _Software Engineer_ • Los Angeles, CA
