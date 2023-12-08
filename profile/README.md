@@ -21,7 +21,7 @@ There are two ways developers can get started with SmoothSail:
 
 ## The Team
 
-**[Emily Olszewski]()** _Software Engineer_ • , AZ
+**[Emily Olszewski]()** _Software Engineer_ • Tucson, AZ
 
 **[Bradley Taylor]()** _Software Engineer_ • Las Vegas, NV
 
