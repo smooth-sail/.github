@@ -1,4 +1,4 @@
-![SmoothSail header](https://github.com/smooth-sail/.github/images/smoothsail-header.png)
+![SmoothSail header](https://github.com/smooth-sail/.github/blob/main/images/smoothsail-header.png)
 
 > SmoothSail is a feature flag management tool with user targeting capabilities.
 
