@@ -1,4 +1,4 @@
-![[SmoothSail banner](profile/images/smoothsail-banner.png)](https://smooth-sail.github.io)
+[![SmoothSail header](images/smoothsail-banner.png)](https://smooth-sail.github.io)
 
 ---
 
