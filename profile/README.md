@@ -25,16 +25,10 @@ SmoothSail has four closely related entities at its core: Flags, Segments, Attri
 
 - Attributes are what describe a user and can be three data types: string, numbers, or booleans. These are made up of name and a data type.
   - used to make rules and are reusable
-  - Attribute examples:
-    - Email string
-    - Age number
-    - Beta tester boolean
+  - Attribute examples: Email (string), Age (number), Beta tester (boolean)
 - Rules are a combination of attribute, operator, and value that get evaluated to place a user in a segment
   - operator examples: =, >, <, <=, >=, contains, does not contain, is, is not, exists, does not exist
-  - Rule examples:
-    - Email contains @gmail.com
-    - Age > 18
-    - Beta tester is true
+  - Rule examples: Email contains @gmail.com, Age > 18, Beta tester is true
 - Segments are reusable collections of rules
   - Segments have a rules operator, `ANY` or `ALL`, which determine if **ANY** of the rules must be true or if **ALL** of the rules must be true to be part of that segment
 - Flags are the primary entity of SmoothSail and are meant to represent a specific feature to be toggled on or off.
