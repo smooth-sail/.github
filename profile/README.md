@@ -19,6 +19,40 @@ There are two ways developers can get started with SmoothSail:
   - [Manager Platform](https://github.com/smooth-sail/smoothsail-manager)
   - [SDK Service](https://github.com/smooth-sail/smoothsail-sdk-service)
 
+## Core Concepts
+
+SmoothSail has four closely related entities at its core: Flags, Segments, Attributes, and Rules. Together they enable SmoothSail users to target segments of users within their application. To start using SmoothSail, users need to first create these entities in the SmoothSail dashboard.
+
+- Attributes are what describe a user and can be three data types: string, numbers, or booleans. These are made up of name and a data type.
+  - used to make rules and are reusable
+  - Attribute ex: Email string, Age number, Beta tester boolean
+- Rules are a combination of attribute, operator, and value that get evaluated to place a user in a segment
+  - operator examples: =, >, <, <=, >=, contains, does not contain, is, is not, exists, does not exist
+  - Rule example:
+    - Email contains @gmail.com
+    - Age > 18
+    - Beta tester is true
+- Segments are reusable collections of rules
+  - Segments have a rules operator, `ANY` or `ALL`, which determine if **ANY** of the rules must be true or if **ALL** of the rules must be true to be part of that segment
+- Flags are the primary entity of SmoothSail and are meant to represent a specific feature to be toggled on or off.
+  - Flags are toggled off by default when created
+  - Flags are made up of 0 or more segments
+
+### User Context
+
+User context is an object composed of attribute-value pairs that provide information about a user. This information is used with rules to evaluate if a user belongs in a segment.
+
+## Architecture
+
+SmoothSail's architecture consists of four major parts:
+
+- The **Manager Platform** manages flag data. It is also responsible for performing authentication and managing SDK keys.
+- The **SDK Service** establishes and maintains Server-Sent Events (SSE) connections with authenticated SDKs.
+- **NATS JetStream** facilitates reliable communication between the Manager and SDK Service.
+- The **SDK**s are embedded into the developer's application and are responsible for connecting to the SDK Service. SDKs are also responsible for evaluating flag data for any user context the developer decides to pass in.
+
+[![SmoothSail architecture](https://github.com/smooth-sail/.github/blob/main/images/smoothsail-architecture.png)](https://smooth-sail.github.io/case-study)
+
 ## The Team
 
 **[Emily Olszewski]()** _Software Engineer_ • Tucson, AZ
