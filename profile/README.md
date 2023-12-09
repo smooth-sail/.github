@@ -8,7 +8,7 @@
 
 SmoothSail is a self-hosted, open-source feature flag tool designed for small companies aiming for rapid feature development with minimized risks. It empowers developers to separate the release of new features from their deployment and quickly revert unsuccessful updates with just a click. SmoothSail provides accurate user targeting capabilities, enabling engineers to introduce new features to specific demographics and limit the impact of unforeseen bugs in production.
 
-📄 To learn more about SmoothSail and the decisions that went into its design, check out our <a href="https://smooth-sail.github.io/case-study" target="_blank">case study</a>
+📄 To learn more about SmoothSail and the decisions that went into its design, check out our [case study](https://smooth-sail.github.io/case-study)
 
 ## Getting Started
 
@@ -25,10 +25,13 @@ SmoothSail has four closely related entities at its core: Flags, Segments, Attri
 
 - Attributes are what describe a user and can be three data types: string, numbers, or booleans. These are made up of name and a data type.
   - used to make rules and are reusable
-  - Attribute ex: Email string, Age number, Beta tester boolean
+  - Attribute examples:
+    - Email string
+    - Age number
+    - Beta tester boolean
 - Rules are a combination of attribute, operator, and value that get evaluated to place a user in a segment
   - operator examples: =, >, <, <=, >=, contains, does not contain, is, is not, exists, does not exist
-  - Rule example:
+  - Rule examples:
     - Email contains @gmail.com
     - Age > 18
     - Beta tester is true
