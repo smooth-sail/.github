@@ -52,10 +52,10 @@ SmoothSail's architecture consists of four major parts:
 
 ## The Team
 
-**[Emily Olszewski]()** _Software Engineer_ • Tucson, AZ
+**[Emily Olszewski](https://emilyolszewski.dev/)** _Software Engineer_ • Tucson, AZ
 
-**[Bradley Taylor]()** _Software Engineer_ • Las Vegas, NV
+**[Bradley Taylor](https://brad-taylor.com)** _Software Engineer_ • Las Vegas, NV
 
-**[Dariia Vyshenska]()** _Software Engineer_ • Seattle, WA
+**[Dariia Vyshenska](https://dariiavyshenska.github.io/)** _Software Engineer_ • Seattle, WA
 
-**[Isaac Lee]()** _Software Engineer_ • Los Angeles, CA
+**[Isaac Lee](https://isaacylee.github.io/)** _Software Engineer_ • Los Angeles, CA
