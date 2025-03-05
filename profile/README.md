@@ -54,7 +54,7 @@ SmoothSail's architecture consists of four major parts:
 
 **[Emily Olszewski](https://emilyolszewski.dev/)** _Software Engineer_ • Seattle, WA
 
-**[Bradley Taylor](https://brad-taylor.com)** _Software Engineer_ • Las Vegas, NV
+**[Bradley Taylor](https://bradtaylor.codes)** _Software Engineer_ • Las Vegas, NV
 
 **[Dariia Vyshenska](https://dariiavyshenska.github.io/)** _Software Engineer_ • Seattle, WA
 
